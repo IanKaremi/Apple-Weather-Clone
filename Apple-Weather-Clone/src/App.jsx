@@ -1,4 +1,5 @@
 import './App.css'
+import Hourly from './hourly'
 
 function App() {
  
@@ -17,6 +18,8 @@ function App() {
 
         <div class="H">
           <div class="H-desc">Cloudy conditions expected for the rest of the day Wind gusts are upto 22km/h.</div>
+          <Hourly />
+
         </div>
         <div class="M">
           Map
