@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: #fff;;
 
 }
 
@@ -44,14 +45,11 @@
   height: 100%;
   gap: 1rem;
   
-  
- 
-
 }
 
 .Applets > div{
   padding: 0;
-  background-color: rgba(103, 146, 190, 0.2);
+  background-color: rgba(35, 125, 190, 0.5);
   border-radius: 15px;
   min-width: 0;
 
@@ -79,8 +77,24 @@
 .hourly-container > div{
   padding: 0 0.5em 0 0.5em;
 }
+.tempStatus{
+  padding-block-start:10px;
+}
 .M{
   grid-area: M;
+  text-align: left;
+}
+.M-desc{
+  text-align: left;
+
+  padding:0.5em 0 0 0.5rem;
+
+}
+.map{
+  background-color: black;
+  margin: 10px;
+  border-radius: 15px;
+  height: 85%;
 }
 .T{
   grid-area: T;

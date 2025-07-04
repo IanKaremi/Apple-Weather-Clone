@@ -1,10 +1,10 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
 
-  background-color: skyblue;
+  background-color: rgb(90,160,210);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
