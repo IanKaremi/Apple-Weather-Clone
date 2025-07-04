@@ -8,7 +8,7 @@ function App() {
       <div class="Head">
         <p>MY LOCATION</p>
         <p class="location">Nairobi</p>
-        <p class="temperature">22°C</p>
+        <p class="temperature">22°</p>
         <p class="condition">Mostly Cloudy</p>
         <p class="high-low">H: 22°C L: 15°C</p>
       </div>
@@ -16,7 +16,7 @@ function App() {
       <div class="Applets">
 
         <div class="H">
-          Hourly Forecast
+          <div class="H-desc">Cloudy conditions expected for the rest of the day Wind gusts are upto 22km/h.</div>
         </div>
         <div class="M">
           Map
