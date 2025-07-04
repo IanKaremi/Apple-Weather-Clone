@@ -1,33 +1,62 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div class="Head">
+        <p>MY LOCATION</p>
+        <p class="location">Nairobi</p>
+        <p class="temperature">22°C</p>
+        <p class="condition">Mostly Cloudy</p>
+        <p class="high-low">H: 22°C L: 15°C</p>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <div class="Applets">
+
+        <div class="H">
+          Hourly Forecast
+        </div>
+        <div class="M">
+          Map
+        </div>
+        <div class="T">
+          10 day Forecast
+        </div>
+        <div class="U">
+          UV Index
+        </div>
+        <div class="S">
+          Sunset
+        </div>
+        <div class="W">
+          Wind
+        </div>
+        <div class="L">
+          Lunar Phase
+        </div>
+        <div class="P">
+          Precipitation
+        </div>
+        <div class="F">
+          Feels Like
+        </div>
+        <div class="Y">
+          Humidity
+        </div>
+        <div class="V">
+          Visibility
+        </div>
+        <div class="R">
+          Pressure
+        </div>
+        <div class="A">
+          Averages
+        </div>
+
+     </div>
+
     </>
   )
 }

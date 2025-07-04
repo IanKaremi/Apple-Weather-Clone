@@ -3,40 +3,77 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.Head{
+  margin-bottom: 1em;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Applets {
+  display: grid;
+  grid-template-areas:
+  "H H H H M M"
+  "T T U S M M"
+  "T T W L P F"
+  "T T Y V R A";
+  grid-template-columns: repeat(6, 150px);
+  grid-template-rows: repeat(4, 150px);
+  height: 100%;
+  gap: 1rem;
+  
+  
+ 
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.Applets > div{
+  padding: 0;
+  background-color: lightblue;
+  border-radius: 15px;
+  min-width: 0;
+
+
 }
 
-.card {
-  padding: 2em;
-}
+.H{
+  grid-area: H;
 
-.read-the-docs {
-  color: #888;
+}
+.M{
+  grid-area: M;
+}
+.T{
+  grid-area: T;
+
+}
+.U{
+  grid-area: U;
+}
+.S{
+  grid-area: S;
+}
+.W{
+  grid-area: W;
+}
+.L{
+  grid-area: L;
+}
+.P{
+  grid-area: P;
+}
+.F{
+  grid-area: F;
+}
+.Y{
+  grid-area: Y;
+}
+.V{
+  grid-area: V;
+}
+.R{
+  grid-area: R;
+}
+.A{
+  grid-area: A;
 }
