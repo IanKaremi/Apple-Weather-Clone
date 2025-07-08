@@ -1,6 +1,7 @@
 import './App.css'
 import Hourly from './hourly'
 import Map from './map'
+import Ten from './ten.jsx'
 
 function App() {
  
@@ -29,6 +30,7 @@ function App() {
         </div>
         <div class="T">
           <div className='T-desc'>🗓️ 10-DAY-FORECAST</div>
+          <Ten />
         </div>
         <div class="U">
           <div>☀️ UV Index</div>
