@@ -40,10 +40,13 @@ function App() {
           💨 Wind
         </div>
         <div class="L">
-          🌕 Lunar Phase
+          🌕 LUNAR PHASE
         </div>
         <div class="P">
-          🌧️ Precipitation
+          <div>🌧️ PRECIPITATION</div>
+          <p>3 mm</p>
+          <div>Today</div>
+          <p>2mm expected tommorrow.</p>
         </div>
         <div class="F">
           <div>🌡️ FEELS LIKE</div>
