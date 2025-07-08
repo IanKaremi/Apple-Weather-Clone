@@ -86,7 +86,7 @@
 }
 .M-desc{
   text-align: left;
-
+  font-size: small;
   padding:0.5em 0 0 0.5rem;
 
 }
@@ -130,9 +130,10 @@
 .Y> :nth-child(1){
   margin: 0.5em 0 0 0.5rem;
   text-align: left;
+  font-size: small;
 }
 .Y> :nth-child(2){
-  font-weight: bold;
+  
   font-size: 2em;
   margin: 0.1em 0 0.8em 0.5rem;
   text-align: left;
@@ -144,6 +145,22 @@
 }
 .V{
   grid-area: V;
+}
+.V> :nth-child(1){
+  margin: 0.5em 0 0 0.5rem;
+  text-align: left;
+  font-size: small;
+}
+.V> :nth-child(2){
+ 
+  font-size: 2em;
+  margin: 0.1em 0 0.8em 0.5rem;
+  text-align: left;
+}
+.V> :nth-child(3){
+  font-size: 0.7em;
+  margin: 0 0 0 0.5rem;
+  text-align: left;
 }
 .R{
   grid-area: R;
