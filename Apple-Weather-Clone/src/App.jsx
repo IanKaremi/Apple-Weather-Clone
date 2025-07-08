@@ -67,10 +67,24 @@ function App() {
           🌬️ Pressure
         </div>
         <div class="A">
-          📈 Averages
-        </div>
+          <p>📈 AVERAGES</p>
+          <p>+1°</p>
+          <div>above average</div><div> daily high</div>
+          <div className="A-container">
+            
+              <div>Today</div>
+              <div>H:23°</div>
+            
+            
+              <div>Average</div>
+              <div>H:22°</div>
+            
+          </div>
 
-     </div>
+           
+
+          </div>
+        </div>
 
     </>
   )
