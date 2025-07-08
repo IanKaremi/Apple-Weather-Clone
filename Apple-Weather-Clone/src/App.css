@@ -141,6 +141,21 @@
 .S{
   grid-area: S;
 }
+.S> :nth-child(1){
+  margin: 0.5em 0 0 0.5rem;
+  text-align: left;
+  font-size: x-small;
+}
+.S> :nth-child(2){ 
+  font-size: 2em;
+  margin: 0.1em 0 0.8em 0.5rem;
+  text-align: left;
+}
+.S> :nth-child(3){
+  font-size: 0.7em;
+  margin: 0 0 0 0.5rem;
+  text-align: left;
+}
 .W{
   grid-area: W;
 }

@@ -36,10 +36,12 @@ function App() {
           <div>☀️ UV Index</div>
         </div>
         <div class="S">
-          🌅 Sunset
+          <div>🌅 SUNSET</div>
+          <p>6:38 PM</p>  
+          <div>Sunrise: 6:35AM</div>
         </div>
         <div class="W">
-          💨 Wind
+          <div>💨 WIND</div>
         </div>
         <div class="L">
           🌕 LUNAR PHASE
