@@ -28,10 +28,10 @@ function App() {
         
         </div>
         <div class="T">
-          🗓️ 10-DAY-FORECAST
+          <div className='T-desc'>🗓️ 10-DAY-FORECAST</div>
         </div>
         <div class="U">
-          ☀️ UV Index
+          <div>☀️ UV Index</div>
         </div>
         <div class="S">
           🌅 Sunset

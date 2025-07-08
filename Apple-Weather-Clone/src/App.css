@@ -50,7 +50,7 @@
 .Applets > div{
   padding: 0;
   background-color: rgba(35, 125, 190, 0.5);
-  border-radius: 15px;
+  border-radius: 10px;
   min-width: 0;
 
 
@@ -86,7 +86,7 @@
 }
 .M-desc{
   text-align: left;
-  font-size: small;
+  font-size: x-small;
   padding:0.5em 0 0 0.5rem;
 
 }
@@ -99,6 +99,16 @@
 .T{
   grid-area: T;
 
+}
+.T> :nth-child(1){
+  margin: 0.5em 0.5em 0.5em 0.5rem;
+  text-align: left;
+  font-size: x-small;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.T-desc{
+ 
+  padding:0 0 0.5em 0.5rem;
 }
 .U{
   grid-area: U;
@@ -119,7 +129,7 @@
 .P> :nth-child(1){
   margin: 0.5em 0 0 0.5rem;
   text-align: left;
-  font-size: small;
+  font-size: x-small;
 }
 .P> :nth-child(2){
  
@@ -147,7 +157,7 @@
 .F> :nth-child(1){
   margin: 0.5em 0 0 0.5rem;
   text-align: left;
-  font-size: small;
+  font-size: x-small;
 }
 .F> :nth-child(2){
  
@@ -173,7 +183,7 @@
 .Y> :nth-child(1){
   margin: 0.5em 0 0 0.5rem;
   text-align: left;
-  font-size: small;
+  font-size: x-small;
 }
 .Y> :nth-child(2){
   
@@ -192,7 +202,7 @@
 .V> :nth-child(1){
   margin: 0.5em 0 0 0.5rem;
   text-align: left;
-  font-size: small;
+  font-size: x-small;
 }
 .V> :nth-child(2){
  
@@ -214,7 +224,7 @@
 .A> :nth-child(1){
   margin: 0.5em 0 0 0.5rem;
   text-align: left;
-  font-size: small;
+  font-size: x-small;
 }
 
 .A> :nth-child(2){
