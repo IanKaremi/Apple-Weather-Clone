@@ -44,7 +44,8 @@ function App() {
           <div>💨 WIND</div>
         </div>
         <div class="L">
-          🌕 LUNAR PHASE
+          <div>🌕 WAXING GIBBOUS</div>
+          <div> Next Moonset: 1:09AM</div>
         </div>
         <div class="P">
           <div>🌧️ PRECIPITATION</div>

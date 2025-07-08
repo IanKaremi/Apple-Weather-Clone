@@ -161,6 +161,20 @@
 }
 .L{
   grid-area: L;
+  display:flex;
+  flex-direction: column;
+  height: 100%; /* Ensure it fills the grid area */
+}
+.L> :nth-child(1){
+  margin: 0.5em 0 0 0.5rem;
+  text-align: left;
+  font-size: x-small;
+}
+.L> :nth-child(2){
+  font-size: 0.7em;
+  margin: auto 0 0 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: left;
 }
 .P{
   grid-area: P;
