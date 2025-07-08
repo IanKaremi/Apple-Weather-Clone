@@ -28,37 +28,37 @@ function App() {
         
         </div>
         <div class="T">
-          10-DAY-FORECAST
+          🗓️ 10-DAY-FORECAST
         </div>
         <div class="U">
-          UV Index
+          ☀️ UV Index
         </div>
         <div class="S">
-          Sunset
+          🌅 Sunset
         </div>
         <div class="W">
-          Wind
+          💨 Wind
         </div>
         <div class="L">
-          Lunar Phase
+          🌕 Lunar Phase
         </div>
         <div class="P">
-          Precipitation
+          🌧️ Precipitation
         </div>
         <div class="F">
-          Feels Like
+          🌡️ Feels Like
         </div>
         <div class="Y">
-          Humidity
+          💧 Humidity
         </div>
         <div class="V">
-          Visibility
+          👁️ Visibility
         </div>
         <div class="R">
-          Pressure
+          🌬️ Pressure
         </div>
         <div class="A">
-          Averages
+          📈 Averages
         </div>
 
      </div>
