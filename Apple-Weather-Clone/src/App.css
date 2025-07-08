@@ -126,6 +126,7 @@
 
 .daily > .time{
   width: 20px;
+  font-weight: 600;
 }
 .state-container{
   padding-left: 50px;
