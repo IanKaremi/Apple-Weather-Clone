@@ -49,7 +49,9 @@ function App() {
           🌡️ Feels Like
         </div>
         <div class="Y">
-          💧 Humidity
+          <div>💧 Humidity</div>
+          <p>60%</p>
+          <p>The dew point is 11°C right now.</p>
         </div>
         <div class="V">
           👁️ Visibility
