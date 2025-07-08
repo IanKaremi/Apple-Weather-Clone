@@ -46,7 +46,9 @@ function App() {
           🌧️ Precipitation
         </div>
         <div class="F">
-          🌡️ Feels Like
+          <div>🌡️ FEELS LIKE</div>
+          <p>22°C</p>
+          <p>Similar to the actual temperature.</p>
         </div>
         <div class="Y">
           <div>💧 HUMIDITY</div>
